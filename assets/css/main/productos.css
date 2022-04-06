@@ -1,0 +1,65 @@
+.productos{
+    width: 90%;
+    margin: 3rem 5%;
+    
+}
+
+.starWars__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.menu__titulo{
+    color: #464646;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px
+}
+
+.menu__subtitulo{
+    color: #2a7ae4;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+}
+
+.starWars__productos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.producto__titulo{
+    color: #464646;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+}
+
+.producto__precio{
+    color: #464646;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    padding: 0.5rem 0;
+
+}
+
+.producto__link{
+    color: #2a7ae4;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-decoration: none;
+}

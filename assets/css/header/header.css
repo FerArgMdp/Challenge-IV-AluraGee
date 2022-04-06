@@ -1,0 +1,13 @@
+.encabezado{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado__menu{
+    padding: 0 auto;
+    align-self: center;
+}
+
+.encabezado__imagen{
+    width: 100%;
+}
