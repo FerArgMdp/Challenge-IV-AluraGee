@@ -4,7 +4,7 @@
     
 }
 
-.starWars__menu{
+.starWars__menu, .consolas__menu, .diversos__menu{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
@@ -28,7 +28,7 @@
     line-height: 100%;
 }
 
-.starWars__productos{
+.starWars__productos, .consolas__productos, .diversos__productos{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -62,4 +62,8 @@
     line-height: 19px;
     line-height: 100%;
     text-decoration: none;
+}
+
+.consolas{
+    padding: 2rem 0;
 }
