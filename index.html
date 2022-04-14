@@ -14,14 +14,27 @@
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/main/productos.css">
     <link rel="stylesheet" href="./assets/css/main/formulario.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
 </head>
 <body class="body">
     <header class="encabezado">
-        <div class="encabezado__menu">
-            <img src="./assets/imagenes/header/Topo.png" alt="Barra de busqueda">
+        <div class="encabezado__aluraGeek">
+            <div class="encabezado__menu">
+                <div class="menu__imagenes">
+                    <img src="./assets/imagenes/header/Vector (1).png" alt="Imagen Joystick">
+                    <img class ="imagen__aluraGeek" src="./assets/imagenes/header/AluraGeek.png" alt=" Logo AluraGeek">
+                    <img class ="imagen__aluraGeek" src="./assets/imagenes/header/AluraGeek (1).png" alt="Logo AluraGeek">
+                </div>
+                <div class="menu__busqueda">
+                    <label for="busqueda"><input type="text" class="barra__busqueda" name="barra__busqueda" id="busqueda" placeholder="¿Qué desea buscar?"></label>
+                </div>
+            </div>
+            <div class="encabezado__btn">
+                <button class="login__btn">Login</button>
+            </div>
         </div>
         <div class="encabezado__banner">
-            <img class="encabezado__imagen" src="./assets/imagenes/header/Hero.png" alt="Banner">
+ 
         </div>
     </header>
     <main class="principal">
@@ -164,9 +177,13 @@
          <section class="container">
              <div class="formulario">
                 <div class="alura">
-                    <img classs = alura__icon src="./assets/imagenes/main/Vector (1).png" alt="Joystick">
-                    <img classs = alura__icon src="./assets/imagenes/main/AluraGeek.png" alt="Alura">
-                    <img classs = alura__icon src="./assets/imagenes/main/AluraGeek (1).png" alt="Geek">   
+                    <div class="alura__imagen">
+                        <img classs = alura__icon src="./assets/imagenes/main/Vector (1).png" alt="Joystick">
+                    </div>   
+                    <div class="alura__texto">
+                        <img classs = alura__icon src="./assets/imagenes/main/AluraGeek.png" alt="Alura">
+                        <img classs = alura__icon src="./assets/imagenes/main/AluraGeek (1).png" alt="Geek">   
+                    </div>
                 </div>
                 <div class="sobre__nosotros">
                     <a class="nosotros__titulos" href="#">Quienes somos</a>
@@ -178,16 +195,18 @@
                 </div>
                 <form class="formulario__contacto">
                     <label for="contacto__titulo"><p id="contacto__titulo">Hable con nosotros</p></label>
-                    <label for="contacto__input"><input id="contacto__input" type="text" placeholder="Nombre" required></label>
-                    <label for="area__mensaje"><textarea name="mensaje" id="area__mensaje" cols="20" rows="5" placeholder="Escribe tu mensaje" required></textarea></label>
+                    <label for="contacto__input"><input class="form__input" id="contacto__input" type="text" placeholder="Nombre" required></label>
+                    <label for="area__mensaje"><textarea class="form__input" name="mensaje" id="area__mensaje" cols="20" rows="5" placeholder="Escribe tu mensaje" required></textarea></label>
                     <button class="mensaje_btn">Enviar mensaje</button>       
                 </form>
              </div>    
          </section>
     </main>
     <footer>
-
+        <div class="rodapie">
+            <p class="rodapie__texto">Desarrollado por Fernando Martinez</p>
+            <p class="rodapie__texto">2022</p>
+        </div>
     </footer>
-    
 </body>
 </html>

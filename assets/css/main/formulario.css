@@ -11,6 +11,15 @@
     
 }
 
+.alura{
+    display: flex;
+}
+
+.alura__texto{
+    padding: 0.3rem 0 0 0.5rem;
+
+}
+
 .sobre__nosotros{
     display: flex;
     flex-direction: column;
@@ -44,11 +53,25 @@
 
 }
 
-#contacto__input{
+.form__input{
     font-family: Raleway;
     font-size: 0.8rem;
-    width: 100%;
+    width: 15rem;
     margin: 0.5rem 0;
-    border-bottom: solid #c8c8c8;
-    padding: 0.2rem 7rem 1rem 0.2rem;
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0.2rem 100% 1rem 0.2rem;
 }
+
+.mensaje_btn{
+    background-color: #2a7ae4;
+    color: white;
+    font-family: Raleway;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3.1875rem;
+    width: 9rem;
+}
+
+
