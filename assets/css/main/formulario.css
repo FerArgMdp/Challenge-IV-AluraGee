@@ -1,0 +1,54 @@
+.container{
+    background-color: #eaf2fd;
+}
+
+.formulario{
+    width: 90%;
+    margin: 3rem 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    
+}
+
+.sobre__nosotros{
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros__titulos{
+    color: #464646;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    padding: 0.5rem 0;
+    text-decoration: none;
+}
+
+.formulario__contacto{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#contacto__titulo{
+    color: #464646;
+    font-family: Raleway;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+
+}
+
+#contacto__input{
+    font-family: Raleway;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-bottom: solid #c8c8c8;
+    padding: 0.2rem 7rem 1rem 0.2rem;
+}
