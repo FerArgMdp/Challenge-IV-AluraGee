@@ -1,8 +1,14 @@
+.container__productos{
+    background-color: #e5e5e5;
+
+}
+
 .productos{
     width: 90%;
-    margin: 3rem 5%;
-    
+    margin: 0 5%;
+    padding: 4rem 0;
 }
+
 
 .starWars__menu, .consolas__menu, .diversos__menu{
     display: flex;

@@ -1,6 +1,10 @@
+.footer{
+    height: 6.375rem;
+}
+
 .rodapie{
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 
 .rodapie__texto{

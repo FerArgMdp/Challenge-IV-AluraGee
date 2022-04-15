@@ -1,0 +1,13 @@
+.encabezado__banner{
+    background-image: url(C:\Users\Fer\Desktop\ONE\PROGRAMACION\FRONTEND\CHALLENGEIV\assets\imagenes\header\banner2.jpg);
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 0 3%;
+   
+}
+
+.encabezado__textos{
+    width: 90%;
+}
