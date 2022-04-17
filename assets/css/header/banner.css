@@ -1,13 +1,53 @@
 .encabezado__banner{
-    background-image: url(C:\Users\Fer\Desktop\ONE\PROGRAMACION\FRONTEND\CHALLENGEIV\assets\imagenes\header\banner2.jpg);
-    height: 352px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8331/eada/249ec3bb3cddfb099af8d5d3dac01246?Expires=1650844800&Signature=QuJl598EC8NYn1KCiYB9G-kf6ES0zZzuM7A7Hb2j8IJbELbCvA2NspFmlI2--2YXgz9BeVBKHQA0G2jCFWGdu5Lhjzpdezmmo7O509QKDHnkZSeABmXFZj4gP--ufwbJmTw6AFv6F~LnoPCujQJYt84RTtowqM7MH4zjDtwBFwOq3LIlAEWm7YmEvdwM7Ea-ZElajT9NWPvR6YSGV0zJ8F1kp5RMstqVJwmMZ6L8exNd8AtkajILEPfirRh5vOzNLrzFwADLeH9h5QTjRvxLQ0PhA7eUuQY5Y5CqKxDRelLglND9Wzo-PbjZ7IhE0WWymq9YIJ9SJW3a~-C74dacNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
     background-position: center;
     background-repeat: no-repeat;
-    width: 90%;
-    margin: 0 3%;
+    height: 352px;
+    width: 105.2%;
    
 }
 
 .encabezado__textos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 6%;
     width: 90%;
 }
+
+.banner__titulo{
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 700, bold;
+    font-size: 3.25rem;
+    line-height: 3.8125rem;
+    line-height: 100%;
+
+}
+
+.banner__subtitulo{
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    line-height: 100%;
+    padding: 1.5rem 0;
+
+}
+
+.consolas__btn {
+    background-color: #2a7ae4;
+    color: #ffffff;
+    border: 0.5px solid #2a7ae4 ;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1rem;
+    height: 3.1875rem;
+    width: 8.0625rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+ 

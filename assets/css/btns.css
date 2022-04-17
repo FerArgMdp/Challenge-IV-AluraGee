@@ -1,8 +1,8 @@
-.btn:hover {
+.btnblanco:hover {
     color: #fff; 
 }
     
-.btn::after {
+.btnblanco::after {
     content: "";
     background: #2a7ae4;
     position: absolute;
@@ -17,7 +17,7 @@
     transition: all 0.35s;
 }
     
-.btn:hover::after {
+.btnblanco:hover::after {
     left: 0;
     right: 0;
     top: 0;
@@ -26,7 +26,40 @@
     transition: all 0.35s;
 }
     
-.btn:active {
+.btnblanco:active {
+    top: 1px;
+}
+
+
+.btnazul:hover {
+    color: #2a7ae4; 
+}
+    
+.btnazul::after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+    
+.btnazul:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+    
+.btnazul:active {
     top: 1px;
 }
     

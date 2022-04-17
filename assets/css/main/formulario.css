@@ -65,13 +65,22 @@
 
 .mensaje_btn{
     background-color: #2a7ae4;
-    color: white;
+    color: #ffffff;
+    border: 0.5px solid #2a7ae4 ;
     font-family: Raleway;
-    border: none;
     font-size: 1rem;
     font-weight: 400;
     height: 3.1875rem;
     width: 9rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
 }
+
+
+
+
+
 
 
