@@ -1,7 +1,7 @@
 .encabezado{
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
 }
 
 .encabezado__aluraGeek{
@@ -32,6 +32,10 @@
     width: 25rem;
 }
 
+.imagen__lupa{
+    display: none;
+}
+
 
 .login__btn {
     background-color: #ffffff;
@@ -48,4 +52,49 @@
     display: inline-block;
     margin-left: 40%;
     }
+
+@media  screen and (max-width:425px){
+    .encabezado{
+        width: 100%;
+
+    }
+
+    .encabezado__aluraGeek{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 1rem 0.5rem;
+    }
+
+    .encabezado__menu{
+        width: 50%;
+    }
+
+    .menu__imagenes{
+        display: flex;
+        flex-wrap: nowrap
+    }
+
+    .imagen__aluraGeek{
+        width: auto;
+    }
+
+    .imagen__lupa{
+        display: flex;
+        padding: 0 1.5rem;
+    }
+
+    .barra__busqueda{
+        display: none;
+        
+    }
+
+    .login__btn{
+        width: 100%;
+        margin-left: 10%;
+        padding: .5rem 1rem;
+    }
+
+}
  

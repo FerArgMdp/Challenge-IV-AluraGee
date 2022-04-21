@@ -1,17 +1,18 @@
 .encabezado__banner{
-    background-image: url("https://s3-alpha-sig.figma.com/img/8331/eada/249ec3bb3cddfb099af8d5d3dac01246?Expires=1650844800&Signature=QuJl598EC8NYn1KCiYB9G-kf6ES0zZzuM7A7Hb2j8IJbELbCvA2NspFmlI2--2YXgz9BeVBKHQA0G2jCFWGdu5Lhjzpdezmmo7O509QKDHnkZSeABmXFZj4gP--ufwbJmTw6AFv6F~LnoPCujQJYt84RTtowqM7MH4zjDtwBFwOq3LIlAEWm7YmEvdwM7Ea-ZElajT9NWPvR6YSGV0zJ8F1kp5RMstqVJwmMZ6L8exNd8AtkajILEPfirRh5vOzNLrzFwADLeH9h5QTjRvxLQ0PhA7eUuQY5Y5CqKxDRelLglND9Wzo-PbjZ7IhE0WWymq9YIJ9SJW3a~-C74dacNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
-    background-position: center;
+    background-image: url("https://trello.com/1/cards/62486181c7386f49fc1a0e4b/attachments/62486181c7386f49fc1a101d/download/banner-image.png");
     background-repeat: no-repeat;
-    height: 352px;
-    width: 105.2%;
+    background-size: cover;
+    background-position: center;
+    height: 22rem;
+    width: 100%;
    
 }
 
 .encabezado__textos{
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
-    padding-left: 6%;
+    padding-top: 8%;
+    padding-left:5%;
     width: 90%;
 }
 
@@ -50,4 +51,13 @@
     overflow: hidden;
     display: inline-block;
 }
- 
+
+
+@media  screen and (max-width:425px){
+    
+    .encabezado__textos{
+        padding-top: 20%;
+        width: 80%;
+    }
+
+}
